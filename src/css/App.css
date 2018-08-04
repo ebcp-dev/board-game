@@ -1,0 +1,18 @@
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.enemy {
+  background-image: url(../assets/images/zebra.svg) cover;
+  background-color: black;
+}
+
+.player {
+  background-color: url(../assets/images/lion.svg) cover;
+  background-color: red;
+}
